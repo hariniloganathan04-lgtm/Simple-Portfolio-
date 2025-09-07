@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Profile Section */
+.profile {
+  text-align: center; /* centers text + inline elements */
+  margin-top: 20px;
+}
+
+#profileImage {
+  display: block;       /* makes it a block element */
+  margin: 0 auto;       /* centers the image */
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;   /* circular image */
+  object-fit: cover;
+  border: 3px solid #555;
+}
+
+#imageUpload {
+  margin-top: 10px;
+}
+
+h1, h2 {
+  margin: 15px 0;
+}
+
+section {
+  margin: 30px 0;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea, button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #555;
+}
